@@ -5,7 +5,7 @@ import * as sections from "../components/sections"
 import Fallback from "../components/fallback"
 import SEOHead from "../components/head"
 
-export default function About(props) {
+export default function Contact(props) {
   const { aboutPage } = props.data
 
   return (
