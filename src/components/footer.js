@@ -95,7 +95,12 @@ export default function Footer() {
     }
   `)
 
+  console.log(data)
+  // const {  meta, socialLinks, copyright } = data.layout.footer
+  console.log(data.layout.footer)
   const { links, meta, socialLinks, copyright } = data.layout.footer
+  // const links = []
+
 
   return (
     <Box as="footer" paddingY={4}>
