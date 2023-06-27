@@ -54,7 +54,7 @@ const socialMedia = {
   },
 }
 
-const getSocialURL = ({ service='', username='' }) => {
+const getSocialURL = ({ service, username }) => {
   const domain = socialMedia[service]?.url
   if (!domain) return false
   return `${domain}/${username}`
