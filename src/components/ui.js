@@ -193,8 +193,8 @@ export function LinkList({ links = [], ...props }) {
     <FlexList {...props}>
       {links &&
         links.map((link, i) => (
-          <li key={link.id}>
-            <CTALink href={link.href}>{link.text}</CTALink>
+          <li key={link?.id}>
+            <CTALink href={link?.href}>{link?.text}</CTALink>
           </li>
         ))}
     </FlexList>
