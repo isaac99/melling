@@ -84,13 +84,13 @@ export default function Header() {
               {navItems &&
                 navItems.map((navItem) => (
                   <li key={navItem?.id}>
-                    {navItem.navItemType === "Group" ? (
+                    {navItem?.navItemType === "Group" ? (
                       <NavItemGroup
-                        name={navItem.name}
-                        navItems={navItem.navItems}
+                        name={navItem?.name}
+                        navItems={navItem?.navItems}
                       />
                     ) : (
-                      <NavLink to={navItem.href}>{navItem.text}</NavLink>
+                      <NavLink to={navItem?.href}>{navItem?.text}</NavLink>
                     )}
                   </li>
                 ))}
