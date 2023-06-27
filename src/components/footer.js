@@ -135,8 +135,8 @@ export default function Footer() {
           <FlexList variant="start" responsive>
             {links &&
               links.map((link) => (
-                <li key={link.id}>
-                  <NavLink to={link.href}>{link.text}</NavLink>
+                <li key={link?.id}>
+                  <NavLink to={link?.href}>{link?.text}</NavLink>
                 </li>
               ))}
           </FlexList>
@@ -144,9 +144,9 @@ export default function Footer() {
           <FlexList>
             {meta &&
               meta.map((link) => (
-                <li key={link.id}>
-                  <NavLink to={link.href}>
-                    <Text variant="small">{link.text}</Text>
+                <li key={link?.id}>
+                  <NavLink to={link?.href}>
+                    <Text variant="small">{link?.text}</Text>
                   </NavLink>
                 </li>
               ))}
