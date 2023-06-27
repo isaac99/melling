@@ -40,7 +40,7 @@ export default function StatList(props) {
             {props.text && <Text variant="lead">{props.text}</Text>}
             <FlexList wrap gap={4}>
               {props.content.map((stat) => (
-                <li key={stat.id}>
+                <li key={stat?.id}>
                   <Stat {...stat} />
                 </li>
               ))}
