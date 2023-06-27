@@ -18,7 +18,7 @@ export default function AboutStatList(props) {
       <Container>
         <FlexList className={styles.statList} variant="center" responsive>
           {props.content.map((stat) => (
-            <AboutStat key={stat} {...stat} />
+            <AboutStat key={stat.id} {...stat} />
           ))}
         </FlexList>
       </Container>

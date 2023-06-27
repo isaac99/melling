@@ -174,9 +174,9 @@ export function ButtonList({ links = [], reversed = false, ...props }) {
     <FlexList marginY={4} {...props}>
       {links &&
         links.map((link, i) => (
-          <li key={link.id}>
-            <Button href={link.href} variant={getVariant(i)}>
-              {link.text}
+          <li key={link?.id}>
+            <Button href={link?.href} variant={getVariant(i)}>
+              {link?.text}
             </Button>
           </li>
         ))}
