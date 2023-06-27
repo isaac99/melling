@@ -54,10 +54,12 @@ const socialMedia = {
   },
 }
 
-const getSocialURL = ({ service, username }) => {
-  const domain = socialMedia[service]?.url
-  if (!domain) return false
-  return `${domain}/${username}`
+const getSocialURL = (link) => {
+  if (!link) return false;
+  const { service, username } = link;
+  const domain = socialMedia[service]?.url;
+  if (!domain) return false;
+  return `${domain}/${username}`;
 }
 
 const getSocialIcon = ({ service }) => {
