@@ -102,7 +102,7 @@ export default function NavItemGroup({ name, navItems }) {
                       />
                     )}
                     <Flex variant="columnStart" marginY={1} gap={0}>
-                      <Box as="span" className={styles.navLinkTitle}>
+                      <Box as="span" className={styles.navLinkTitle2}>
                         {navItem.text}
                       </Box>
                       {!!navItem.description && (
