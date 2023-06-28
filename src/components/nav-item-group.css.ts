@@ -148,6 +148,6 @@ export const navLinkDescription = style({
 export const navLinkTitle = style({
   margin: 0,
   padding: 0,
-  background: 'transparent',
+  backgroundColor: 'transparent',
   color: '#000000'
 })
