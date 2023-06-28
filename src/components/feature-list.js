@@ -2,12 +2,13 @@ import * as React from "react"
 import { graphql } from "gatsby"
 import { Container, Box, Kicker, Heading, Text } from "./ui"
 import Feature from "./feature"
+import * as styles from "./feature.css"
 
 export default function FeatureList(props) {
   return (
     <Container width="fullbleed">
-      <Box background="muted" radius="large">
-        <Box center paddingY={5}>
+      <Box className={styles.featureHeader} radius="large">
+        <Box center paddingY={5} className={styles.innerBox}>
           <Heading>
             {props.kicker && <Kicker>{props.kicker}</Kicker>}
             {props.heading}

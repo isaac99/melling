@@ -38,7 +38,8 @@ export const heroFlex = style({
 export const heroImageContainer = style({
     padding: 0,
     maxHeight: 550,
-    paddingTop: 0
+    paddingTop: 0,
+    overflowY: 'hidden',
 })
 
 export const heroSection = style({

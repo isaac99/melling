@@ -12,11 +12,13 @@ import {
   ButtonList,
 } from "./ui"
 
+import * as styles from "./feature.css"
+
 export default function Feature(props) {
   return (
-    <Section padding={4} background="muted">
+    <Section padding={4} background="" className={styles.featureSection}>
       <Container>
-        <Flex gap={4} variant="responsive">
+        <Flex gap={4} variant="responsive" className={styles.innerBox}>
           <Box width="half" order={props.flip ? 1 : null}>
             {props.image && (
               <GatsbyImage
@@ -31,7 +33,7 @@ export default function Feature(props) {
               {props.heading}
             </Subhead>
             <Text variant="lead">{props.text}</Text>
-            <ButtonList links={props.links} />
+            <ButtonList links={props.links} reversed={true}/>
           </Box>
         </Flex>
       </Container>

@@ -11,6 +11,8 @@ import {
   Kicker,
 } from "./ui"
 
+import * as styles from "./cta.css"
+
 export default function HomepageCta(props) {
   return (
     <Container width="fullbleed">
@@ -28,6 +30,8 @@ export default function HomepageCta(props) {
             <GatsbyImage
               alt={props.image.alt}
               image={getImage(props.image.gatsbyImageData)}
+              size="medium"
+              className={styles.ctaImage}
             />
           </Nudge>
         )}

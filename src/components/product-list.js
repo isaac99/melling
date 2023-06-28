@@ -20,7 +20,7 @@ function Product(props) {
         <Icon
           alt={props.image.alt}
           image={props.image.gatsbyImageData}
-          size="large"
+          size="medium"
         />
       )}
       <Subhead>{props.heading}</Subhead>
