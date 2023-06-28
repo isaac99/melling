@@ -22,6 +22,8 @@ import {
 import NavItemGroup from "./nav-item-group"
 import BrandLogo from "./brand-logo"
 
+import * as styles from "./header.css"
+
 export default function Header() {
   const data = useStaticQuery(graphql`
     query {
@@ -77,7 +79,7 @@ export default function Header() {
         <Flex variant="spaceBetween">
           <NavLink to="/">
             <VisuallyHidden>Home</VisuallyHidden>
-            <BrandLogo />
+            <BrandLogo className={styles.mainLogo} />
           </NavLink>
           <nav>
             <FlexList gap={4}>

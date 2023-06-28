@@ -28,7 +28,8 @@ export const heroHeader = style({
     position: "absolute",
     top: 50,
     paddingLeft:30,
-    color: "#e2ded0"
+    // color: "#e2ded0"
+    color: '#FFFFFF'
 })
 
 export const heroFlex = style({
@@ -43,5 +44,5 @@ export const heroImageContainer = style({
 })
 
 export const heroSection = style({
-    paddingTop: 50
+    paddingTop: 20
 })

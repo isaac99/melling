@@ -22,8 +22,10 @@ export default function Feature(props) {
           <Box width="half" order={props.flip ? 1 : null}>
             {props.image && (
               <GatsbyImage
+                id="test123"
                 alt={props.image.alt}
                 image={getImage(props.image.gatsbyImageData)}
+                className={styles.featureImage}
               />
             )}
           </Box>

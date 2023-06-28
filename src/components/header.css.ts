@@ -14,6 +14,11 @@ export const desktopHeaderNavWrapper = style({
   },
 })
 
+export const mainLogo = style({
+  height: '25px',
+  maxHeight: '25px',
+})
+
 const mobileHeaderNavWrapperBase = style({
   display: "block",
   position: "relative",

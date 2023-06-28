@@ -20,3 +20,7 @@ export const featureHeader = style({
 export const innerBox = style({
     paddingBottom: 0,
 })
+
+export const featureImage = style({
+    maxHeight: '370px',
+})
