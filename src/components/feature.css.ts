@@ -9,7 +9,8 @@ import { media } from "./ui.css"
 export const featureSection = style({
     paddingTop: '0px',
     paddingBottom: 0,
-    backgroundColor: theme.colors.gold
+    backgroundColor: theme.colors.gold,
+    minHeight: '400px',
 })
 
 export const featureHeader = style({
