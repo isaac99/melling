@@ -1,15 +1,4 @@
-<a href="https://www.gatsbyjs.com">
-  <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-</a>
 
-# Gatsby Starter Sanity Homepage
-
-Create a homepage using Gatsby and Sanity. This starter demonstrates how to use Sanity to build a homepage and can be customized to match your own visual branding.
-
-[View the Demo](https://gatsbysanityhomepage.gatsbyjs.io/)
-
-**Note:**
-This version of the Sanity homepage starter is written in JavaScript. If you want to use Sanity but TypeScript is more your style, there is also a TypeScript version maintained on [GitHub](https://github.com/gatsbyjs/gatsby-starter-sanity-homepage-ts).
 
 ## Quick start
 
